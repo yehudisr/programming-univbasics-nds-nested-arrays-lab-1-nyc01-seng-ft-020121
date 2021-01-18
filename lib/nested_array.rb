@@ -41,7 +41,9 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  storage[0][1].sort
+ 
+ 
+ storage = [ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]
   
 end
 
